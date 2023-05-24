@@ -1,0 +1,6 @@
+
+project_name: GitOps_Project
+template_name: switches_aaa
+
+filter: role
+filter_value: CORE
