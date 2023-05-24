@@ -1,0 +1,6 @@
+
+project_name: GitOps_Project
+template_name: csr_updates
+
+filter: device_family
+filter_value: Cisco Cloud Services Router 1000V
