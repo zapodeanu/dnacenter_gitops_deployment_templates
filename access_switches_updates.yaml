@@ -1,0 +1,15 @@
+
+project_name: Ansible_Project
+template_name: access_switches_logging
+
+filter: role
+filter_value: ACCESS
+
+cli_template: |
+  !
+  logging host 10.93.141.37
+  logging host 10.93.141.37 transport udp port 8514
+  !
+  service timestamps debug datetime localtime
+  service timestamps log datetime localtime
+  
